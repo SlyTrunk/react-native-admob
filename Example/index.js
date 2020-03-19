@@ -128,6 +128,9 @@ export default class Example extends Component {
               targeting={{
                 customTargeting: { group: 'users' },
                 categoryExclusions: ['media'],
+                gender: 'male',
+                birthday: new Date(1989, 6, 9),
+                childDirectedTreatment: true,
                 contentURL: 'admob://',
                 publisherProvidedID: 'abc123',
               }}
