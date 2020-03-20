@@ -16,17 +16,7 @@ import {
   UIManager,
   ViewPropTypes,
 } from 'react-native';
-import {
-  string,
-  func,
-  arrayOf,
-  bool,
-  object,
-  shape,
-  instanceOf,
-  oneOf,
-  number,
-} from 'prop-types';
+
 import { createErrorFromErrorData } from './utils';
 
 class PublisherBanner extends Component {
