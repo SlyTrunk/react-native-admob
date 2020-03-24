@@ -33,6 +33,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import com.sbugert.rnadmob.customClasses.CustomTargeting;
 import com.sbugert.rnadmob.enums.TargetingEnums;
