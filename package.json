@@ -1,13 +1,16 @@
 {
-  "name": "react-native-admob",
+  "name": "@slytrunk/react-native-admob",
   "version": "2.0.0-beta.9",
   "description": "A react-native component for Google AdMob banners and interstitials",
   "author": "Simon Bugert <simon.bugert@gmail.com>",
   "main": "index.js",
   "license": "BSD-2-Clause",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sbugert/react-native-admob.git"
+    "url": "git@github.com:SlyTrunk/react-native-admob.git"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
